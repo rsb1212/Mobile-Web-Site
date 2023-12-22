@@ -87,3 +87,30 @@ function fadeOut(){
 }
 
 window.onload = fadeOut;
+
+   function ck()
+            {
+                let un1 ="rahul";
+                let pass1 ="pass";
+                let un2= document.getElementById("usr").value;
+                let pass2= document.getElementById("pss").value;
+                let email= document.getElementById("eid").value;
+                    alert("register successfully")
+                    window.open("index.html");
+            }
+   
+    function chk()
+    {
+      let un1 ="rahul";
+      let pass1 ="pass";
+        let un2= document.getElementById("usr").value;
+        let pass2= document.getElementById("pss").value;
+        if ((un1==un2)&&(pass1==pass2))
+        {
+            window.open("index.html");
+        }
+        else
+        {
+            alert("wrong credintial");
+        }
+    }
